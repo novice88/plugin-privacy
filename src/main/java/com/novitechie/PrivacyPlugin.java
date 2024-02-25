@@ -7,10 +7,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class PrivacyPlugin  implements PluginEntry {
-
-    static {
-        System.out.println("-------------PrivacyPlugin------------------");
-    }
     @Override
     public String getName() {
         return "PRIVACY";
